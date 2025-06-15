@@ -23,6 +23,7 @@ a node.js rest api for managing personal contacts. This app allows users to regi
 
 ## folder structure
 
+```bash
 contact-management-app/
 ├── config/             # MongoDB connection config
 ├── controllers/        # Logic for users and contacts
@@ -32,6 +33,7 @@ contact-management-app/
 ├── .env                # Environment variables (not pushed to Git)
 ├── server.js           # Main entry point
 ├── package.json        # Project dependencies and scripts
+```
 
 
 ## api endpoints
