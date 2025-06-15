@@ -24,14 +24,14 @@ a node.js rest api for managing personal contacts. This app allows users to regi
 ## folder structure
 
 contact-management-app/
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-├── config/
-├── .env
-├── server.js
-├── package.json
+├── config/             # MongoDB connection config
+├── controllers/        # Logic for users and contacts
+├── middleware/         # Auth token validation and error handling
+├── models/             # Mongoose schemas for User and Contact
+├── routes/             # API route handlers
+├── .env                # Environment variables (not pushed to Git)
+├── server.js           # Main entry point
+├── package.json        # Project dependencies and scripts
 
 
 ## api endpoints
